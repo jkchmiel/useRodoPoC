@@ -1,0 +1,7 @@
+{
+  "name": "Use RODO PoC",
+  "description": "Use RODO PoC",
+  "repository": "https://github.com/jkchmiel/useRodoPoC",
+  "logo": "http://wz.utp.edu.pl/wp-content/uploads/2018/10/rodo-800x400.jpg",
+  "keywords": ["RODO", "presta", "python"]
+}
