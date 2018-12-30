@@ -15,7 +15,7 @@ class PrestaShopClient:
 
     @staticmethod
     def get_customer_data(email: str, shop_name: str) -> Optional[ShopPersonalData]:
-        file_name = os.path.join(os.path.dirname(sys.modules['__main__'].__file__), f"tmp/integrations/prestashop/data/{shop_name}/{email}.json")
+        file_name = f"tmp/integrations/prestashop/data/{shop_name}/{email}.json"
         print(f"get customer data for file: {file_name}")
         try:
             customer_personal_data = json.load(open(file_name))
