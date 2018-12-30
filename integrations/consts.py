@@ -1,0 +1,1 @@
+PRESTA_SHOPS = ["zbivan", "testytesty_ovh"]
